@@ -4,8 +4,8 @@
 //
 //  Created by Jay Lee on 2020/11/25.
 //
-
-import Foundation
+#if canImport(UIKit)
+import UIKit
 import SpriteKit
 
 class NinePartsNode: SKSpriteNode {
@@ -27,3 +27,4 @@ fileprivate extension CGRect {
                       height: 0.01)
     }
 }
+#endif

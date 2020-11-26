@@ -22,7 +22,6 @@
 
 /* Begin PBXBuildFile section */
 		9E5D308F256F30700020FE2A /* NinePartsNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5D308E256F30700020FE2A /* NinePartsNode.swift */; };
-		OBJ_24 /* SpriteUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* SpriteUI.swift */; };
 		OBJ_31 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_42 /* SpriteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* SpriteUITests.swift */; };
 		OBJ_43 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* XCTestManifests.swift */; };
@@ -53,7 +52,6 @@
 		OBJ_17 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		OBJ_18 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		OBJ_9 /* SpriteUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteUI.swift; sourceTree = "<group>"; };
 		"SpriteUI::SpriteUI::Product" /* SpriteUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpriteUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"SpriteUI::SpriteUITests::Product" /* SpriteUITests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SpriteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -129,7 +127,6 @@
 			isa = PBXGroup;
 			children = (
 				9E5D308E256F30700020FE2A /* NinePartsNode.swift */,
-				OBJ_9 /* SpriteUI.swift */,
 			);
 			name = SpriteUI;
 			path = Sources/SpriteUI;
@@ -220,7 +217,6 @@
 			buildActionMask = 0;
 			files = (
 				9E5D308F256F30700020FE2A /* NinePartsNode.swift in Sources */,
-				OBJ_24 /* SpriteUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
