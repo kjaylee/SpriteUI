@@ -8,7 +8,7 @@
 import UIKit
 import SpriteKit
 
-class NinePartsNode: SKSpriteNode {
+public class NinePartsNode: SKSpriteNode {
     public override init(texture: SKTexture?, color: UIColor, size: CGSize) {
         super.init(texture: texture, color: color, size: size)
         self.centerRect = CGRect.nineParts()
